@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.preview {
+    background: #f9faff;
+    padding: 48px 16px;
+}
+
+
+.signup-btn {
+    padding: 8px 16px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.home {
+    background-color: #f4f5fa;
+    background-image: url('B12A01-landing-launchpad/Assets/Hero-bg.png');
+    /* pattern background */
+    background-repeat: repeat;
+    background-size: auto;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.home h1 {
+    font-size: 36px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+}
+
+
+.high {
+    font-size: 30px;
+    color: #4E47FF;
+}
+
+.low {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.primary-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats {
+    background: #eef0ff;
+    text-align: center;
+    padding: 48px 16px;
+}
+
+.images {
+    border-radius: 30px;
+    width: 400px;
+    height: 328px;
+}
+
+.stat-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.stat-boxes div {
+    background: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.testimonials {
+    background: #f5f7ff;
+    padding: 48px 16px;
+    text-align: center;
+
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+    color: #1a1a1a;
+}
+
+.testimonial-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #ffffff;
+    padding: 16px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    text-align: left;
+
+}
+
+
+
+.box:hover {
+    transform: translateY(-4px);
+}
+
+.preview {
+    background: #f9faff;
+    padding: 48px 16px;
+}
+
+.preview .container {
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.preview .text {
+    flex: 1;
+}
+
+.preview .image {
+    flex: 1;
+}
+
+.secondary-btn {
+    background: #e0e0ff;
+    color: #6c63ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.stars img {
+    width: 16px;
+    height: 16px;
+}
+
+.box h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.date {
+    font-size: 12px;
+    color: #999;
+}
+
+.focus {
+    text-align: center;
+    padding: 48px 16px;
+    background: #eef0ff;
+}
+
+.focus-image img {
+    max-width: 100%;
+    margin-top: 24px;
+    border-radius: 12px;
+}
+
+
+.contact {
+    background: #eef0ff;
+    padding: 64px 16px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.footer {
+    background: #ffffff;
+    text-align: center;
+    padding: 48px 16px;
+}
+
+.footer-logo {
+    color: #6c63ff;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #6c63ff;
+}
